@@ -1,12 +1,9 @@
 import React from "react";
 
 const Card = ({ data }) => {
-  const { heading, text, bottomText } = data;
+  const { heading,  bottomText } = data;
 
-  // Function to generate a string of 'M's based on count
-  const generateMs = (count) => {
-    return Array(count).fill("M").join("");
-  };
+  
 
   return (
     <div className="m-8 my-20 w-full md:w-1/2 lg:w-1/2 xl:w-1/2">

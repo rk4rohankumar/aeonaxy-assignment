@@ -50,16 +50,16 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } mt-4 sm:mt-0`}
       >
-        <a href="#" className="text-white hover:text-gray-300 mr-4">
+        <a href="/" className="text-white hover:text-gray-300 mr-4">
           Our Story
         </a>
-        <a href="#" className="text-white hover:text-gray-300 mr-4">
+        <a href="/" className="text-white hover:text-gray-300 mr-4">
           Membership
         </a>
-        <a href="#" className="text-white hover:text-gray-300 mr-4">
+        <a href="/" className="text-white hover:text-gray-300 mr-4">
           Write
         </a>
-        <a href="#" className="text-white hover:text-gray-300 mr-4">
+        <a href="/" className="text-white hover:text-gray-300 mr-4">
           Sign In
         </a>
         <button className="bg-black text-white px-4 py-2 rounded-full hover:bg-blue-500">

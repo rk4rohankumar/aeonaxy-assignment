@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 const TestimonialCard = ({ data }) => {
-  const { name, text, img, heading } = data;
+  const { name, text, image, heading } = data;
   return (
     <div className="w-full bg-white">
       <div className="bg-white rounded-lg overflow-hidden mx-auto max-w-md md:max-w-xl">
@@ -24,8 +24,8 @@ const TestimonialCard = ({ data }) => {
               }}
             >
               <img
-                src={img}
-                alt="image"
+                src={image}
+                alt=""
                 style={{
                   width: "100%", // Ensure image covers the container
                   height: "100%", // Ensure image covers the container

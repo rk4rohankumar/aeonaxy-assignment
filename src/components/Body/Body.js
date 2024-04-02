@@ -1,6 +1,5 @@
 import React from "react";
 import Tagline from "./Tagline";
-import Card from "./Card";
 import { DummyData } from "../../Data/Data";
 import { DummyTestimonialData } from "../../Data/Data";
 import TestimonialCard from "../Testimonial/TestimonialCard";
